@@ -39,7 +39,7 @@ shuffled_songs=your_code.sort_songs(audio_features)
 
 
 # %% Create the playlist
-playlist_name = 'CPAC party 2023'
+playlist_name = 'CPAC party 2024'
 playlist_description = 'Created during CPAC'
 playlist = sp.user_playlist_create(username, playlist_name, public=True, collaborative=False, description=playlist_description)
 

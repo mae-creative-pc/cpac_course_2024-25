@@ -18,7 +18,6 @@ def compute_beats(y, sr):
         sample index where beat occurs
     """
     # your code here
-    # suggestons: look for librosa's frames_to_samples
     return 0
 
 def add_samples(y, sample, beats):

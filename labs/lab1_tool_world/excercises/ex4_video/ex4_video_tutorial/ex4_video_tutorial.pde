@@ -2,7 +2,7 @@ import processing.video.*;
 
 /* Global variable */
 Capture cam;
-int index_cam=0;
+int index_cam=1;
 boolean camera_found=false;
 
 boolean find_camera(){

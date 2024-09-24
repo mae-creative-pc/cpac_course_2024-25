@@ -4,7 +4,7 @@ Capture cam;
 PImage old_frame;
 PImage cur_frame;
 boolean first_frame=true;
-int index_cam=0;
+int index_cam=1;
 void setup() {
   size(640, 480);
 

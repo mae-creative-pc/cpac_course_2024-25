@@ -45,3 +45,4 @@ for i in range(0,2):
 
     for feature in ["danceability", "energy", "speechiness", "acousticness","liveness","instrumentalness","valence"]:
         print("The %s of the song is %1.f %%"%(feature, 100*audio_features[i][feature]))
+    print()

@@ -16,7 +16,7 @@ void setup()
   smooth();
   minim = new Minim(this);
   /* put any file you like here*/
-  song = minim.loadFile("../../../../data/mashup.mp3",frameLength);  
+  song = minim.loadFile("../../../data/mashup.mp3",frameLength);  
   feat = new AgentFeature(song.bufferSize(), song.sampleRate());
   song.play();     
   
