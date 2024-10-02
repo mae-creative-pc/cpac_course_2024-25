@@ -1,0 +1,15 @@
+numpy
+librosa
+soundfile
+ipykernel
+matplotlib
+requests
+python-osc
+opencv-python
+imutils
+argparse
+joblib
+pandas
+tensorflow
+scikit-learn
+spotipy
