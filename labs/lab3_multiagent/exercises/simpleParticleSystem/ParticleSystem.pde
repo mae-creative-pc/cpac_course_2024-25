@@ -21,8 +21,6 @@ class ParticleSystem{
       p.draw();
       p.lifespan-=0.5;
       if(p.isDead()){
-         particles.remove(i);
-         this.addParticle();
       }
     
     }
