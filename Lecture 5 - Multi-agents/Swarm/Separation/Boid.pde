@@ -12,6 +12,7 @@ class Boid {
   float maxforce;    // Maximum steering force
   float maxspeed;    // Maximum speed
   float desiredseparation = 100.0f;
+  //float desiredseparation = random(0,100.0f);
   
 
   Boid(float x, float y) {
@@ -83,9 +84,9 @@ class Boid {
   // Separation
   // Method checks for nearby boids and steers away
   PVector separate (ArrayList<Boid> boids) {
-    //float desiredseparation = 25.0f;
     PVector steer = new PVector(0,0,0);
     int count = 0;
+    
     // For every boid in the system, check if it's too close
     for (Boid other : boids) {
       float d = PVector.dist(location,other.location);
