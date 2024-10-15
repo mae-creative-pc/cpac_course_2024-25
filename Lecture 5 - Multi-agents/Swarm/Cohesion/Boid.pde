@@ -96,7 +96,6 @@ class Boid {
   // Cohesion
   // For the average location (i.e. center) of all nearby boids, calculate steering vector towards that location
   PVector cohesion (ArrayList<Boid> boids) {
-    //float neighbordist = 50;
     PVector sum = new PVector(0,0);   // Start with empty vector to accumulate all locations
     int count = 0;
     for (Boid other : boids) {
